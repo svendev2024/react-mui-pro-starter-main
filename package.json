@@ -1,0 +1,67 @@
+{
+  "name": "react-mui-pro-starter",
+  "version": "1.0.41",
+  "description": "React + Material UI all in one starter",
+  "license": "MIT",
+  "author": "Anton Karpenko <i@karpolan.com> (https://karpolan.com)",
+  "keywords": [
+    "react",
+    "mui",
+    "material",
+    "material ui",
+    "starter",
+    "react stater",
+    "create react app",
+    "create react app mui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karpolan/react-mui-pro-starter"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "axios": "latest",
+    "clsx": "latest",
+    "date-fns": "latest",
+    "loglevel": "latest",
+    "notistack": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-idle-timer": "^4.6.4",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "validate.js": "latest",
+    "web-vitals": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "prettier": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint --ext js src",
+    "lint:fix": "eslint --fix --ext js src",
+    "format": "prettier src --write",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
